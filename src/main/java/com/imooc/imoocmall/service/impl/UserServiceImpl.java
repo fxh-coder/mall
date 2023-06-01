@@ -5,6 +5,7 @@ import com.imooc.imoocmall.exception.ImoocMallExceptionEnum;
 import com.imooc.imoocmall.model.dao.UserMapper;
 import com.imooc.imoocmall.model.pojo.User;
 import com.imooc.imoocmall.service.UserService;
+import com.imooc.imoocmall.util.MD5Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,7 +31,11 @@ public class UserServiceImpl implements UserService {
         // 将信息写到数据库
         User user = new User();
         user.setUsername(userName);
-        user.setPassword(password);
+        try {
+            user.setPassword(MD5Utils.getMD5Str(password));
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
 
         // 这个方法只会给两个字段赋值
         int count = userMapper.insertSelective(user);
