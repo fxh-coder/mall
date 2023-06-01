@@ -41,3 +41,49 @@
 [09:47:21:894] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"id":1,"username":"1","password":"1","personalizedSignature":"666","role":1,"createTime":1576435053000,"updateTime":1582958003000}
 [09:48:04:954] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc-mall_datasource - Shutdown initiated...
 [09:48:04:960] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc-mall_datasource - Shutdown completed.
+[11:27:19:187] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImoocMallApplication using Java 17.0.6 on DESKTOP-UO6BC9N with PID 13136 (D:\fxh\Documents\Code\Java_code\imooc-mall\target\classes started by fxh in D:\fxh\Documents\Code\Java_code\imooc-mall)
+[11:27:19:193] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[11:27:20:098] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[11:27:20:099] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+[11:27:20:099] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[11:27:20:099] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:27:20:109] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+[11:27:20:115] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[11:27:20:115] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:27:20:115] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[11:27:20:319] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:27:20:320] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 1098 ms
+[11:27:20:902] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[11:27:20:915] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[11:27:20:927] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImoocMallApplication in 1.972 seconds (JVM running for 2.795)
+[11:27:35:663] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:27:35:663] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:27:35:664] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[11:27:35:685] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userName' for method parameter type String is not present]
+[11:30:52:107] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/register
+[11:30:52:107] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[11:30:52:107] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[11:30:52:108] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.userController.register
+[11:30:52:108] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[fxh, 12345678]
+[11:30:52:130] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc-mall_datasource - Starting...
+[11:30:52:253] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc-mall_datasource - Start completed.
+[11:30:52:306] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[11:31:43:572] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/register
+[11:31:43:572] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[11:31:43:572] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[11:31:43:572] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.userController.register
+[11:31:43:572] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[fxh, ]
+[11:31:43:573] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10002,"msg":"密码不能为空","data":null}
+[11:32:05:326] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/register
+[11:32:05:326] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[11:32:05:326] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[11:32:05:326] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.userController.register
+[11:32:05:326] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[fxh, 1245678]
+[11:32:05:326] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10003,"msg":"密码长度不能小于8位","data":null}
+[11:32:13:962] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/register
+[11:32:13:962] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[11:32:13:962] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[11:32:13:962] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.userController.register
+[11:32:13:962] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[fxh, 12456789]
+[11:35:47:101] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc-mall_datasource - Shutdown initiated...
+[11:35:47:108] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc-mall_datasource - Shutdown completed.
