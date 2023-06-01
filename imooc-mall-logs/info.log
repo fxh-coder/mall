@@ -176,3 +176,165 @@
 [16:57:43:250] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
 [16:58:35:747] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc-mall_datasource - Shutdown initiated...
 [16:58:35:755] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc-mall_datasource - Shutdown completed.
+[20:17:09:153] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.3.Final
+[20:17:09:176] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImoocMallApplication using Java 17.0.6 on DESKTOP-UO6BC9N with PID 17496 (D:\fxh\Documents\Code\Java_code\imooc-mall\target\classes started by fxh in D:\fxh\Documents\Code\Java_code\imooc-mall)
+[20:17:09:182] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[20:17:10:002] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[20:17:10:003] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+[20:17:10:003] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[20:17:10:005] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[20:17:10:014] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+[20:17:10:021] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[20:17:10:021] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[20:17:10:021] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[20:17:10:087] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[20:17:10:087] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 876 ms
+[20:17:10:676] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[20:17:10:690] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[20:17:10:703] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImoocMallApplication in 1.756 seconds (JVM running for 2.523)
+[20:20:38:650] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[20:20:38:650] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[20:20:38:651] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[20:21:06:739] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.3.Final
+[20:21:06:761] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImoocMallApplication using Java 17.0.6 on DESKTOP-UO6BC9N with PID 18992 (D:\fxh\Documents\Code\Java_code\imooc-mall\target\classes started by fxh in D:\fxh\Documents\Code\Java_code\imooc-mall)
+[20:21:06:766] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[20:21:07:454] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[20:21:07:455] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+[20:21:07:456] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[20:21:07:456] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[20:21:07:458] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+[20:21:07:464] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[20:21:07:464] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[20:21:07:465] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[20:21:07:525] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[20:21:07:525] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 731 ms
+[20:21:08:048] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[20:21:08:063] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[20:21:08:073] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImoocMallApplication in 1.524 seconds (JVM running for 2.015)
+[20:21:19:819] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[20:21:19:819] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[20:21:19:820] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[20:21:19:914] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/admin/category/add
+[20:21:19:914] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[20:21:19:914] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[20:21:19:914] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.CategoryController.addCategory
+[20:21:19:914] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[org.apache.catalina.session.StandardSessionFacade@4b703759, AddCategoryReq{name='鸭货', type=2, parentId=6, orderNum=10}]
+[20:21:19:925] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10007,"msg":"用户未登录","data":null}
+[20:21:40:180] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/login
+[20:21:40:180] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[20:21:40:180] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[20:21:40:180] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.userController.login
+[20:21:40:180] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[fxh, 12345678, org.apache.catalina.session.StandardSessionFacade@4b703759]
+[20:21:40:201] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc-mall_datasource - Starting...
+[20:21:40:308] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc-mall_datasource - Start completed.
+[20:21:40:349] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":16,"username":"fxh","password":null,"personalizedSignature":"","role":2,"createTime":1685590252000,"updateTime":1685610056000}}
+[20:21:49:024] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/admin/category/add
+[20:21:49:024] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[20:21:49:024] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[20:21:49:024] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.CategoryController.addCategory
+[20:21:49:024] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[org.apache.catalina.session.StandardSessionFacade@4b703759, AddCategoryReq{name='鸭货', type=2, parentId=6, orderNum=10}]
+[20:21:49:044] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[20:22:01:951] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc-mall_datasource - Shutdown initiated...
+[20:22:01:956] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc-mall_datasource - Shutdown completed.
+[21:04:49:234] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.3.Final
+[21:04:49:261] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImoocMallApplication using Java 17.0.6 on DESKTOP-UO6BC9N with PID 32132 (D:\fxh\Documents\Code\Java_code\imooc-mall\target\classes started by fxh in D:\fxh\Documents\Code\Java_code\imooc-mall)
+[21:04:49:265] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[21:04:50:326] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[21:04:50:327] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+[21:04:50:327] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[21:04:50:327] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[21:04:50:329] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+[21:04:50:338] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[21:04:50:338] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:04:50:338] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[21:04:50:415] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:04:50:415] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 1113 ms
+[21:04:50:899] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[21:04:51:119] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[21:04:51:132] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[21:04:51:132] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[21:04:51:141] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[21:04:51:142] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+[21:04:51:150] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8083"]
+[21:04:51:151] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[21:04:51:153] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8083"]
+[21:04:51:154] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8083"]
+[21:12:27:124] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.3.Final
+[21:12:27:142] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImoocMallApplication using Java 17.0.6 on DESKTOP-UO6BC9N with PID 35160 (D:\fxh\Documents\Code\Java_code\imooc-mall\target\classes started by fxh in D:\fxh\Documents\Code\Java_code\imooc-mall)
+[21:12:27:148] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[21:12:27:996] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[21:12:27:997] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+[21:12:27:997] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[21:12:27:997] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[21:12:28:000] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+[21:12:28:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[21:12:28:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:12:28:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[21:12:28:068] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:12:28:068] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 893 ms
+[21:12:28:531] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[21:12:28:756] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[21:12:28:768] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[21:12:28:768] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[21:12:28:778] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[21:12:28:779] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+[21:12:28:786] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8083"]
+[21:12:28:786] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[21:12:28:790] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8083"]
+[21:12:28:791] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8083"]
+[21:18:32:244] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.3.Final
+[21:18:32:262] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImoocMallApplication using Java 17.0.6 on DESKTOP-UO6BC9N with PID 2996 (D:\fxh\Documents\Code\Java_code\imooc-mall\target\classes started by fxh in D:\fxh\Documents\Code\Java_code\imooc-mall)
+[21:18:32:266] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[21:18:33:033] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8083 (http)
+[21:18:33:034] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+[21:18:33:034] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[21:18:33:034] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[21:18:33:036] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+[21:18:33:043] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[21:18:33:044] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:18:33:044] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[21:18:33:103] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:18:33:103] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 810 ms
+[21:18:33:531] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[21:18:33:741] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[21:18:33:754] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8083 (http) with context path ''
+[21:18:33:755] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[21:18:33:764] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[21:18:33:780] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[21:18:33:944] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImoocMallApplication in 1.866 seconds (JVM running for 2.348)
+[21:19:08:780] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:19:08:780] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[21:19:08:781] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[21:19:08:894] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/admin/category/update
+[21:19:08:894] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[21:19:08:894] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[21:19:08:894] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.CategoryController.updateCategory
+[21:19:08:894] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[UpdateCategoryReq{id=31, name='鸭货', type=3, parentId=6, orderNum=10}, org.apache.catalina.session.StandardSessionFacade@130788d1]
+[21:19:08:909] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10007,"msg":"用户未登录","data":null}
+[21:19:12:920] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/login
+[21:19:12:920] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[21:19:12:920] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[21:19:12:920] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.userController.login
+[21:19:12:920] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[fxh, 12345678, org.apache.catalina.session.StandardSessionFacade@130788d1]
+[21:19:12:946] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc-mall_datasource - Starting...
+[21:19:13:100] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc-mall_datasource - Start completed.
+[21:19:13:162] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":16,"username":"fxh","password":null,"personalizedSignature":"","role":2,"createTime":1685590252000,"updateTime":1685610056000}}
+[21:19:16:311] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/admin/category/update
+[21:19:16:311] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[21:19:16:311] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[21:19:16:311] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.CategoryController.updateCategory
+[21:19:16:311] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[UpdateCategoryReq{id=31, name='鸭货', type=3, parentId=6, orderNum=10}, org.apache.catalina.session.StandardSessionFacade@130788d1]
+[21:19:16:340] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[21:19:34:327] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/admin/category/update
+[21:19:34:328] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[21:19:34:328] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[21:19:34:328] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.CategoryController.updateCategory
+[21:19:34:328] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[UpdateCategoryReq{id=31, name='鸭货', type=3, parentId=null, orderNum=null}, org.apache.catalina.session.StandardSessionFacade@130788d1]
+[21:19:34:332] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[21:20:22:403] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:38) - URL:http://127.0.0.1:8083/admin/category/update
+[21:20:22:403] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:39) - HTPP_METHOD:POST
+[21:20:22:403] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - IP:127.0.0.1
+[21:20:22:403] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD:com.imooc.imoocmall.controller.CategoryController.updateCategory
+[21:20:22:404] [INFO] - com.imooc.imoocmall.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS:[UpdateCategoryReq{id=31, name='冰淇淋', type=3, parentId=null, orderNum=null}, org.apache.catalina.session.StandardSessionFacade@130788d1]
+[21:20:37:248] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc-mall_datasource - Shutdown initiated...
+[21:20:37:254] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc-mall_datasource - Shutdown completed.
