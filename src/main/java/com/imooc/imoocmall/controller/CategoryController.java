@@ -1,5 +1,6 @@
 package com.imooc.imoocmall.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.imooc.imoocmall.common.ApiRestResponse;
 import com.imooc.imoocmall.common.Constant;
 import com.imooc.imoocmall.exception.ImoocMallExceptionEnum;
@@ -12,9 +13,7 @@ import com.imooc.imoocmall.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
@@ -50,20 +49,35 @@ public class CategoryController {
     @ApiOperation("后台更新目录")
     @PostMapping("admin/category/update")
     @ResponseBody
-    public ApiRestResponse updateCategory(@Valid @RequestBody UpdateCategoryReq updateCategoryReq, HttpSession session){
+    public ApiRestResponse updateCategory(@Valid @RequestBody UpdateCategoryReq updateCategoryReq, HttpSession session) {
         User currentUser = (User) session.getAttribute(Constant.IMOOC_MALL_USER);
-        if (currentUser == null){
+        if (currentUser == null) {
             return ApiRestResponse.error(ImoocMallExceptionEnum.NEED_LOGIN);
         }
         boolean adminRole = userService.checkAdminRole(currentUser);
-        if (adminRole){
+        if (adminRole) {
             Category category = new Category();
             BeanUtils.copyProperties(updateCategoryReq, category);
             categoryService.update(category);
             return ApiRestResponse.success();
-        }else {
+        } else {
             return ApiRestResponse.error(ImoocMallExceptionEnum.NEED_ADMIN);
         }
+    }
 
+    @ApiOperation("后台删除目录")
+    @PostMapping("admin/category/delete")
+    @ResponseBody
+    public ApiRestResponse deleteCategory(@RequestParam("id") Integer id) {
+        categoryService.delete(id);
+        return ApiRestResponse.success();
+    }
+
+    @ApiOperation("后台目录列表")
+    @GetMapping("admin/category/list")
+    @ResponseBody
+    public ApiRestResponse listCategoryForAdmin(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize) {
+        PageInfo pageInfo = categoryService.listForAdmin(pageNum, pageSize);
+        return ApiRestResponse.success(pageInfo);
     }
 }
